@@ -23,7 +23,7 @@ import java.util.List;
 @SuperBuilder
 public class Author extends BaseEntity {
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     private String name;
 
     @Column(columnDefinition = "TEXT")
