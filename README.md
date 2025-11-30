@@ -137,5 +137,4 @@ lando logs -s [service-name]
 lando info
 ```
 
-For more detailed setup instructions, see [.build-artifacts/SETUP_INSTRUCTIONS.md](.build-artifacts/SETUP_INSTRUCTIONS.md)
 
