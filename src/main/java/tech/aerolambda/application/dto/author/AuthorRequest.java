@@ -1,0 +1,13 @@
+package tech.aerolambda.application.dto.author;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
+
+public record AuthorRequest(
+        @NotBlank(message = "Name is required")
+        @Size(max = 255, message = "Name must be at most 255 characters")
+        String name,
+
+        @Size(max = 2000, message = "Bio must be at most 2000 characters")
+        String bio
+) {}
