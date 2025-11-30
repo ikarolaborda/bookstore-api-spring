@@ -1,0 +1,13 @@
+.idea/
+.claude/
+.serena/
+.build-artifacts/
+*.md
+!README.md
+
+target/
+.lando/
+.lando.*.yml
+frontend/
+pgadmin_data/
+*.log
